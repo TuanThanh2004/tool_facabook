@@ -30,18 +30,6 @@ def main():
                         start=start_gr,
                         end=end_gr)
 
-        elif index_acc == 10:
-            driver = login(
-                email='0343887360',
-                password='2004Ntt@2603')
-            # time.sleep(5)
-            driver = post_a_lot(
-                driver=driver,
-                df_gr=df_group,
-                df_ct=df_content,
-                start=start_gr,
-                end=end_gr)
-
 
 
 
